@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .navbar label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .dropdown-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  }
+  

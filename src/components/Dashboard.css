@@ -1,0 +1,30 @@
+/* Dashboard.css */
+
+.dash-board {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  min-height: 100vh;
+}
+
+.col {
+  margin-right: 10px;
+  padding: 10px;
+  flex: 0 0 auto;
+  justify-content: center;
+  width: 35vw;
+  min-width: 150px;
+  max-width: 294px;
+}
+
+.col-heading {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 4px;
+  padding-bottom: 25px;
+}
+

@@ -1,0 +1,131 @@
+.display-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    max-width: 90px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    padding: 10px;
+    user-select: none;
+    font-size: 13px;
+  }
+  
+  .filter-logo {
+    width: 15px;
+    margin-right: 10px;
+  }
+  
+  .down-logo {
+    width: 13px;
+    margin-left: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .filter-dropdown {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    max-width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px 0;
+  }
+  
+  .filter-group {
+    display: flex;
+    padding: 5px;
+  }
+  
+  .select {
+    width: 100%; /* Make select fill container */
+  }
+  
+  @media (max-width: 768px) {
+    .display-button {
+      max-width: 100%; /* Make buttons expand on small screens */
+    }
+  }
+  
+  /* FilterDropdown.css */
+
+.filter-dropdown-container {
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.display-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 90px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  padding: 10px;
+  user-select: none;
+  position: relative;
+  font-size: 13px;
+}
+
+.filter-logo {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.down-logo {
+  width: 13px;
+  margin-left: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.display-button.open .down-logo {
+  transform: rotate(180deg);
+}
+
+.filter-dropdown {
+  position: absolute;
+  top: 50px;
+  width: 250px;
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.filter-group {
+  display: flex;
+  padding: 5px;
+}
+
+.select {
+  width: 9em;
+}
+
+.grouping, .ordering {
+  margin: 5px;
+  font-weight: 600;
+  color: #787878;
+  width: 90px;
+  font-size: 13px;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: none;
+}

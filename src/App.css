@@ -1,0 +1,19 @@
+/* App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f5f8;
+  min-height: 100vh;
+}
+
+body {
+  cursor: default;
+}
